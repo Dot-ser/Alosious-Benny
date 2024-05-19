@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"  rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/212f003c30.js" crossorigin="anonymous"></script>   
+    <meta property="og:site_name" name="og:site_name" content="DOT">
+    <meta property="og:title" name="og:title" content="Alosious">
+    <meta property="og:url" name="og:url" content="error_code_404____">
+    <meta property="og:image" name="og:image" content="../assets/profile.jpg">
+    <meta property="og:description" name="og:description" content="About me!">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/profile.jpg">
+    <link rel="stylesheet" href="styles.css" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <nav>
+      <div   id="particles-js">
+      <div class="nav__content">
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i> </label>
+             <div class="rose">
+            <a href="../services/"  class="fa-solid fa-arrow-right">Next</a>
+            <a href="../"  class="fa-solid fa-arrow-left">GO BACK</a></div>       
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li> <a href="../index.html">Home</a> </li>   
+          <li> <a onclick="myFunction()">About</a> </li>
+          <script>
+            function myFunction() {
+              alert("YOU ALREADY ON ABOUT PAGE   :)    ");
+            }
+            </script>
+         <li><a href="../services/">Services</a></li>
+         <li><a onclick="myFunction2()">Developer</a></li>
+         <script>
+           function myFunction2() {
+           alert("NJAN THANNE AHDA");
+                                 }
+        </script>
+          <li><a href="../Contact us/">Contact</a></li>
+        </ul> <div class="rose">
+      
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">
+            <span>ABOUT ME
+          </h1> 
+          <p class="typeWriter" id="rose"></p>
+          </div>
+          <script>
+const txt = 'Am from Kerala,india. a Bsc Cyber forensic student .I can create personal portfolio websites. am also good editor , photographer. FEEL FREE TO COTACT ';
+            const speed = 50;
+            let i = 0;
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("rose").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+                typeWriter();
+                const element = document.getElementById("rose");
+              element.style.color = "white";
+              element.style.textShadow = "0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff";
+        </script>
+    <!---- <div class="image">
+          <img src="../assets/profile.jpg" alt="profile">.-->
+
+        
+           <script src="particles.js"></script>
+        <script src="app.js"></script> 
+        <script src="myFunction.js"></script>
+           <script src="myFunction2.js">
+        </script> 
+
+
+        </div>
+      <div class="man">
+<h2>©alosious benny</h2>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
