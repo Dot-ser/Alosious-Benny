@@ -312,6 +312,14 @@ span{color: white;
     color: #ffffff;
   }
 
+.man h2{
+  font-size: 10px;
+  color: #b4bac54f;
+}
+h1{
+  font-size: 15px;
+}
+
   .rose{
     size: 1.5em;
     top: 85%;
