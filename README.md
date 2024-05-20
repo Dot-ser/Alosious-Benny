@@ -1,1 +1,1 @@
-<a> href="https://alosious-benny.vercel.app/" WEBSITE 💌</a>
+https://alosious-benny.vercel.app/
