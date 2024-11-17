@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Sitemap</title>
+</head>
+<body>
+    <h1>Automatic Sitemap Downloader</h1>
+    <p>The sitemap.xml file will be downloaded automatically.</p>
+
+    <script>
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = 'https://raw.githubusercontent.com/Dot-ser/Alosious-Benny/refs/heads/main/sitemap/sitemap.xml'; // Replace with your sitemap URL
+            link.download = 'sitemap.xml';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+</body>
+</html>
